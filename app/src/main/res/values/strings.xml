@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EmployeeApp</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="next">Next</string>
+    <string name="hourly_salary">Hourly Salary</string>
+    <string name="base_salary">Base Salary</string>
+    <string name="base_commission">Base + Commission</string>
+    <string name="hourly_commission">Hourly + Commission</string>
+</resources>

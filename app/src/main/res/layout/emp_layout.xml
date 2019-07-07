@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="3"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/emp_profile_imageId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher_round"
+                app:civ_border_width="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.25"
+                app:civ_border_color="#FF000000"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/tvEmpNameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name:"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvEmpId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvEmpTypeId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type:"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
