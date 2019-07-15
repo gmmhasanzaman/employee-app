@@ -11,7 +11,7 @@
         android:layout_height="250dp"
         android:padding="10dp"
         app:cardCornerRadius="20dp"
-        app:cardBackgroundColor="@color/colorAccent"
+        app:cardBackgroundColor="#08ECD7"
         >
         <LinearLayout
             android:orientation="horizontal"
@@ -64,7 +64,6 @@
                     android:padding="10dp"
                     android:layout_margin="10dp"
                     />
-
 
             </LinearLayout>
 

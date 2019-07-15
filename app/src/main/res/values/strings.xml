@@ -6,4 +6,7 @@
     <string name="base_salary">Base Salary</string>
     <string name="base_commission">Base + Commission</string>
     <string name="hourly_commission">Hourly + Commission</string>
+    <string name="finish">finish</string>
+    <string name="no_content">No Content</string>
+    <string name="salary">Salary</string>
 </resources>
